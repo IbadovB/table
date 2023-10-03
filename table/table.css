@@ -1,0 +1,21 @@
+
+h2{
+    width:30%;
+        background-color: lightblue;
+   }
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 6px;
+}
+tr>th{
+    background-color: lightblue;
+}
+tr:has(td):hover{
+    background-color: red;
+}
